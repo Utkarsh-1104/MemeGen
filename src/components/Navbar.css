@@ -1,0 +1,19 @@
+.nav {
+    background: linear-gradient(to right, #228069, #264CD3);
+    display: flex;
+    gap: 2rem;
+}
+.troll {
+    width: 6rem;
+    padding: 1rem 5rem;
+}
+.memetxt {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: 16rem;
+}
+@media (max-width: 862px) {
+    .nav{
+        width: 60rem;
+    }
+}
